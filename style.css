@@ -71,6 +71,38 @@ body {
 .btn:hover {
 	background-color: #444;
 }
+#social-media {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+#social-media ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#social-media li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#social-media a {
+  color: #333;
+  text-decoration: none;
+}
+
+#social-media a:hover {
+  color: #666;
+}
+
+#social-media img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
 @media (max-width: 768px) {
 	.package {
