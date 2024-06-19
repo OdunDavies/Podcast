@@ -30,6 +30,13 @@ body {
     background-color: #CBC3E3;
     color: #000000;
 }
+#packages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
 
 .package h2 {
     font-size: 1.5em;
