@@ -1,23 +1,26 @@
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 0;
 }
 
+/* Section: About */
 #about {
-	background-color: #F5F5DC;
-	padding: 40px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	margin-bottom: 40px;
+    background-color: #F5F5DC;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
 }
 
 #about img {
-	width: 100px;
-	margin: 20px;
-	border-radius: 50%;
+    width: 100px;
+    margin: 20px;
+    border-radius: 50%;
 }
 
+/* Packages */
 .package {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -25,7 +28,7 @@ body {
     margin-bottom: 20px;
     width: 300px;
     background-color: #CBC3E3;
-	color:#000000;
+    color: #000000;
 }
 
 .package h2 {
@@ -64,40 +67,42 @@ body {
     background-color: #45a049;
 }
 
+/* Section: Social Media */
 #social-media {
-  background-color: #f7f7f7;
-  padding: 20px;
-  text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
 }
 
 #social-media ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #social-media li {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
 #social-media a {
-  color: #333;
-  text-decoration: none;
+    color: #333;
+    text-decoration: none;
 }
 
 #social-media a:hover {
-  color: #666;
+    color: #666;
 }
 
 #social-media img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
-	.package {
-		width: 100%;
-	}
+    .package {
+        width: 100%;
+    }
 }
