@@ -18,59 +18,51 @@ body {
 	border-radius: 50%;
 }
 
-#packages {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	margin-top: 30px;
+.package {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    background-color: #f9f9f9;
 }
 
-.package {
-	background-color: #fff;
-	padding: 40px;
-	margin: 20px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	width: calc(50% - 40px);
-	border-radius: 10px;
+.package h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.package p {
+    margin-top: 0;
 }
 
 .package ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	color: #666;
+    list-style-type: none;
+    padding: 0;
 }
 
-.package li {
-	margin-bottom: 15px;
+.package ul li {
+    margin-bottom: 5px;
 }
 
-.package li:before {
-	content: "•";
-	margin-right: 15px;
-	color: #333;
+.package button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
-.price {
-	font-size: 28px;
-	font-weight: bold;
-	color: #333;
-	margin-top: 20px;
+.package button:hover {
+    background-color: #45a049;
 }
 
-.btn {
-	background-color: #333;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-.btn:hover {
-	background-color: #444;
-}
 #social-media {
   background-color: #f7f7f7;
   padding: 20px;
