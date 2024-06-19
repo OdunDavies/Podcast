@@ -14,30 +14,38 @@
 		<img src="logo.jpg" alt="Podcast Logo">
 	</section>
 	
-	<!-- Packages Section -->
-	<section id="packages">
-		<div class="package">
-			<h2>The Hanujay Package</h2>
-			<ul>
-				<li>Feature 1</li>
-				<li>Feature 2</li>
-				<li>Feature 3</li>
-			</ul>
-			<p class="price">$99.99</p>
-			<button class="btn">3131166748, Firstbank</button>
-		</div>
-		
-		<div class="package">
-			<h2>Package 2</h2>
-			<ul>
-				<li>Feature 4</li>
-				<li>Feature 5</li>
-				<li>Feature 6</li>
-			</ul>
-			<p class="price">$199.99</p>
-			<button class="btn">3131166748, Firstbank</button>
-		</div>
-	</section>
+	<h1>Choose Your Package</h1>
+
+    <div class="package">
+        <h2>Package A</h2>
+        <p>Features of Package A:</p>
+        <ul>
+            <li>Feature 1 of Package A</li>
+            <li>Feature 2 of Package A</li>
+            <li>Feature 3 of Package A</li>
+        </ul>
+        <p>Price: $100</p>
+        <button onclick="payIntoAccount('123456789')">Pay Now for Package A</button>
+    </div>
+
+    <div class="package">
+        <h2>Package B</h2>
+        <p>Features of Package B:</p>
+        <ul>
+            <li>Feature 1 of Package B</li>
+            <li>Feature 2 of Package B</li>
+            <li>Feature 3 of Package B</li>
+        </ul>
+        <p>Price: $150</p>
+        <button onclick="payIntoAccount('987654321')">Pay Now for Package B</button>
+    </div>
+	<!-- JavaScript for payment -->
+    <script>
+        function payIntoAccount(accountNumber) {
+            // Replace this with actual payment logic, e.g., redirect to payment gateway
+            alert(`Please transfer the amount to account number: ${accountNumber}`);
+        }
+    </script>
 	<!-- Social Media Links -->
 <section id="social-media">
   <ul>
