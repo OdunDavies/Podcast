@@ -12,8 +12,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
-    display: flex;
-    align-items: center;
 }
 
 #about img {
@@ -21,8 +19,6 @@ body {
     margin: 100px;
     border-radius: 50%;
 }
-#about .about-text {
-    flex: 1;
 
 /* Packages */
 .package {
