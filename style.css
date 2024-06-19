@@ -1,11 +1,11 @@
 body {
 	font-family: Arial, sans-serif;
 	text-align: center;
-	background-color: purple;
+	background-color: #7F00FF;
 }
 
 #about {
-	background-color: #f7f7f7;
+	background-color: #800080;
 	padding: 40px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
