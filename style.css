@@ -35,6 +35,7 @@ h1 {
     width: 300px; /* Initial width for desktop */
     background-color: #CBC3E3;
     color: #000000;
+    margin: 20px;
     text-align: center; /* Center text on all screen sizes */
 }
 
@@ -43,7 +44,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .package h2 {
