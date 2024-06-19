@@ -12,12 +12,14 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
+    text-align: center; /* Center text on all screen sizes */
 }
 
 #about img {
     width: 100px;
-    margin: 20px;
+    height: 100px; /* Adjust image size */
     border-radius: 50%;
+    margin: 20px 0; /* Adjust margin for better spacing */
 }
 
 /* Packages */
@@ -26,10 +28,12 @@ body {
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
-    width: 300px;
+    width: 300px; /* Initial width for desktop */
     background-color: #CBC3E3;
     color: #000000;
+    text-align: center; /* Center text on all screen sizes */
 }
+
 #packages {
     display: flex;
     justify-content: center;
@@ -109,11 +113,23 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    #about {
+        padding: 20px;
+    }
+    
+    #about img {
+        width: 80px;
+        height: 80px;
+        margin: 10px 0;
+    }
+
     .package {
-        width: 100%;
+        width: 100%; /* Full width for packages on smaller screens */
+        max-width: 300px; /* Limit maximum width to maintain readability */
+        margin-bottom: 20px;
+    }
+
+    #social-media {
+        padding: 10px;
     }
 }
-
-    
-
-   
