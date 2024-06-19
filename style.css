@@ -22,6 +22,10 @@ body {
     margin: 20px 0; /* Adjust margin for better spacing */
 }
 
+h1 {
+    text-align: center;
+}
+
 /* Packages */
 .package {
     border: 1px solid #ccc;
