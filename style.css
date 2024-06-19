@@ -12,13 +12,17 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
 }
 
 #about img {
     width: 100px;
-    margin: 20px;
+    margin: 100px;
     border-radius: 50%;
 }
+#about .about-text {
+    flex: 1;
 
 /* Packages */
 .package {
@@ -30,13 +34,6 @@ body {
     background-color: #CBC3E3;
     color: #000000;
 }
-
-#packages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
 
 .package h2 {
     font-size: 1.5em;
@@ -101,10 +98,10 @@ body {
 }
 
 #social-media img {
-    width: 20px;
-    height: 20px;
-    border-radius: 25%;
-    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 /* Responsive Design */
@@ -113,3 +110,7 @@ body {
         width: 100%;
     }
 }
+
+    
+
+   
