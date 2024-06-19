@@ -28,7 +28,7 @@ body {
     margin-bottom: 20px;
     width: 300px;
     background-color: #CBC3E3;
-    color: #FFFFFF;
+    color: #000000;
 }
 #packages {
     display: flex;
