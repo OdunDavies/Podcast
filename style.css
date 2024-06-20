@@ -1,8 +1,10 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
     padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
 /* Section: About */
@@ -27,33 +29,48 @@ h1 {
 }
 
 /* Packages */
-.package {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-    width: 300px; /* Initial width for desktop */
-    background-color: #CBC3E3;
-    color: #000000;
-    margin: 20px;
-    text-align: center; /* Center text on all screen sizes */
+#packages {
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 40px;
 }
 
-#packages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+#packages h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.package {
+    background-color: #CBC3E3;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+}
+
+.package-culture {
+    border-left: 5px solid purple;
+    background-color: rgb(223, 156, 223);;
+}
+
+.package-family {
+    border-left: 5px solid purple;
+    background-color: rgb(223, 156, 223);
 }
 
 .package h2 {
     font-size: 1.5em;
-    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
 }
 
-.package p {
-    margin-top: 0;
+.package p, .package ul {
+    margin-bottom: 10px;
 }
 
 .package ul {
@@ -62,21 +79,30 @@ h1 {
 }
 
 .package ul li {
-    margin-bottom: 5px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.package ul li .icon {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.package .price {
+    font-size: 1.2em;
+    color: #000;
+    margin-top: 10px;
 }
 
 .package button {
-    background-color: #4CAF50;
+    background-color: rgb(2, 57, 2);
     color: white;
     border: none;
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin-top: 10px;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .package button:hover {
@@ -85,56 +111,40 @@ h1 {
 
 /* Section: Social Media */
 #social-media {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     padding: 20px;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#social-media h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
 }
 
 #social-media ul {
+    list-style: none;
+    padding: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #social-media li {
-    margin-right: 20px;
+    margin: 0 10px;
 }
 
-#social-media a {
-    color: #333;
-    text-decoration: none;
-}
-
-#social-media a:hover {
-    color: #666;
-}
-
-#social-media img {
+#social-media a img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin-right: 10px;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    #about {
-        padding: 20px;
-    }
-    
-    #about img {
-        width: 80px;
-        height: 80px;
-        margin: 10px 0;
-    }
-
     .package {
-        width: 100%; /* Full width for packages on smaller screens */
-        max-width: 300px; /* Limit maximum width to maintain readability */
-        margin-bottom: 20px;
-    }
-
-    #social-media {
-        padding: 10px;
+        width: 100%;
+        max-width: none;
+        margin: 20px 0;
     }
 }
