@@ -79,6 +79,7 @@ text-align: left;
 
 .package-culture, .package-family {
 border-left: 5px solid purple;
+  border-right: 5px solid purple;
 background-color: rgb(223, 156, 223);
 }
 
