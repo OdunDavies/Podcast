@@ -52,7 +52,7 @@ margin-bottom: 10px;
 /* Packages */
 #packages {
 text-align: center;
-padding: 0 20px;
+padding: 0 15px;
 margin-bottom: 40px;
 }
 
@@ -71,7 +71,7 @@ display: inline-block;
 vertical-align: top;
 width: 100%;
 max-width: 300px;
-text-align: left;
+text-align: center;
 }
 
 .package-culture, .package-family {
