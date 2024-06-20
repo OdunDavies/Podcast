@@ -41,6 +41,27 @@ body {
     font-size: 18px;
     margin-bottom: 10px;
 }
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+header span {
+  font-weight: bold;
+  color: #666;
+}
 
 /* Packages */
 #packages {
