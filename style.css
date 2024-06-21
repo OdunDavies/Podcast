@@ -8,10 +8,11 @@ color: #333;
 }
 
 /* Section: About */
+
 /* About Section Styling */
 #about {
     background-color: #f9f9f9;
-    padding: 50px 20px;
+    padding: 30px 10px; /* Reduced padding */
     text-align: center;
 }
 
@@ -22,26 +23,26 @@ color: #333;
 }
 
 .about-logo {
-    width: 150px;
+    width: 100px; /* Reduced width */
     height: auto;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Reduced margin */
 }
 
 .about-text {
-    max-width: 600px;
+    max-width: 500px; /* Reduced max-width */
 }
 
 .about-text h1 {
-    font-size: 2.5em;
+    font-size: 2em; /* Reduced font size */
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Reduced margin */
 }
 
 .about-text h4 {
-    font-size: 1.2em;
+    font-size: 1em; /* Reduced font size */
     color: #666;
-    line-height: 1.6;
+    line-height: 1.4; /* Slightly reduced line height */
 }
 
 .about-text a {
@@ -52,7 +53,6 @@ color: #333;
 .about-text a:hover {
     text-decoration: underline;
 }
-
 
 /* Packages */
 #packages {
