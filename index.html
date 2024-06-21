@@ -31,7 +31,7 @@
                 <li><span class="icon">🎟️</span> Access to all events</li>
             </ul>
             <p class="price">Price: #500</p>
-            <button onclick="showPaymentInfo()">Pay Now!</button>
+            <button onclick="payIntoAccount('Account Name: Vision design <br> Account Number: 6353296810 <br> Bank: Moniepoint MFB')">Pay Now!</button>
         </div>
         <div class="package package-family">
             <h2>The Anyhow Family</h2>
@@ -45,15 +45,9 @@
                 <li><span class="icon">🎂</span> Personal Birthday shout-out from the Boyz</li>
             </ul>
             <p class="price">Price: #1000</p>
-            <button onclick="showPaymentInfo()">Pay Now!</button>
-            <div id="payment-modal" style="display:none">
-  <h2>Payment Information</h2>
-  <p>Account Name: Vision design</p>
-  <p>Account Number: 6353296810</p>
-  <p>Bank: Moniepoint MFB</p>
-  <button onclick="closeModal()">Close</button>
+            <button onclick="payIntoAccount('Account Name: Vision design <br> Account Number: 6353296810 <br> Bank: Moniepoint MFB')">Pay Now!</button>
 </div>
-        </div>
+        
     </section>
     
     <!-- Social Media Links -->
@@ -69,14 +63,9 @@
     
     <!-- JavaScript for payment -->
     <script>
-        function showPaymentInfo() {
-  document.getElementById("payment-modal").style.display = "block";
-}
-
-function closeModal() {
-  document.getElementById("payment-modal").style.display = "none";
-}
-        
+        function payIntoAccount(accountDetails) {
+            alert(`Please transfer the amount to: ${accountDetails}`);
+        }
     </script>
 </body>
 </html>
