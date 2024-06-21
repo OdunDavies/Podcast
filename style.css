@@ -129,6 +129,29 @@ width: 100%;
 background-color: #45a049;
 }
 
+/* Enquiries Message */
+#enquiries {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#enquiries h1 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#enquiries p {
+  font-size: 16px;
+  color: #666;
+}
+
+#enquiries a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
 /* Section: Social Media */
 #social-media {
 background-color: #ffffff;
