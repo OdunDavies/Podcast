@@ -63,9 +63,15 @@
     
     <!-- JavaScript for payment -->
     <script>
-        function payIntoAccount(accountDetails) {
-            alert(`Please transfer the amount to: ${accountDetails}`);
-        }
-    </script>
+  function payIntoAccount(accountDetails) {
+    const accountInfo = `
+      Please transfer the payment to:
+      Account Name: ${accountDetails.split('<br>')[0].replace('Account Name: ', '')}
+      Account Number: ${accountDetails.split('<br>')[1].replace('Account Number: ', '')}
+      Bank: ${accountDetails.split('<br>')[2].replace('Bank: ', '')}
+    `;
+    alert(accountInfo);
+  }
+</script>
 </body>
 </html>
