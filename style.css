@@ -89,6 +89,7 @@ background-color: rgb(223, 156, 223);
 font-size: 1.5em;
 margin-bottom: 10px;
 color: #333;
+    text-align: center;
 }
 
 .package p, .package ul {
